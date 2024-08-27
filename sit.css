@@ -1,0 +1,428 @@
+.ALL {
+    position: absolute;
+    width: 1114px;
+    height: 990px;
+    left: 381px;
+    top: 17px;
+}
+
+.DATA {
+    /* Дата 26.03.2024 */
+    position: absolute;
+    width: 199px;
+    height: 30px;
+    left: 460px;
+    top: 220px;
+    white-space: nowrap;
+    font-family: 'Futura Condensed Extra';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.TIME {
+    position: absolute;
+    width: 153px;
+    height: 30px;
+    left: 485px;
+    top: 265px;
+    white-space: nowrap;
+    font-family: 'Futura Condensed Extra';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.osnova {
+    /* NIKE AIR MAX DAY */
+    position: absolute;
+    width: 1920px;
+    height: 159px;
+    left: calc(50% - 1069px/2 + 0.5px);
+    top: -90px;
+    font-family: 'Futura Condensed Extra';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 155px;
+    color: #FFFFFF;
+}
+
+.baza {
+    color: white;
+    position: absolute;
+    width: 759px;
+    height: 400px;
+    top: 250px;
+}
+
+.img {
+    position: absolute;
+    width: 1920px;
+    height: 1320px;
+    left: 0px;
+    top: -196px;
+}
+
+.btn {
+    /* История AIR MAX DAY */
+    position: absolute;
+    white-space: nowrap;
+    width: 280px;
+    height: 50px;
+    left: 470px;
+    top: 890px;
+    font-family: 'Futura Condensed Extra';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    border-radius: 20px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.btn:hover {
+    transform: rotateY(-10px);
+}
+
+.btnone {
+    /* История Air Max Day */
+    position: absolute;
+    z-index: 1;
+    white-space: nowrap;
+    width: 157px;
+    height: 19px;
+    left: 315px;
+    top: 3770px;
+    font-family: 'Futura Condensed Extra';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    border: 0px;
+    /* identical to box height */
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.btnone {
+    transform: rotateY(-10px);
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.NIKE {
+    position: absolute;
+    left: calc(50% - 480px/2);
+    top: 1100px;
+    font-family: 'Futura Condensed Extra';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: #000000;
+}
+
+.twoslaer {
+    position: absolute;
+    width: 1920px;
+    height: 683.5px;
+    left: 0px;
+    top: 1194px;
+}
+
+.texttwo {
+    position: absolute;
+    width: 682px;
+    height: 503px;
+    left: 400px;
+    top: 120px;
+    font-family: 'Futura Condensed Extra';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.AIRMAX {
+    /* История праздника AIR MAX DAY */
+    position: absolute;
+    width: 768px;
+    height: 60px;
+    left: 190px;
+    top: 1800px;
+    white-space: nowrap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+}
+
+.MODEL {
+    position: absolute;
+    width: 960px;
+    height: 360px;
+    left: 100px;
+    top: 2000px;
+    font-family: 'Futura Condensed Extra';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.imgtree {
+    /* image 3 */
+    position: absolute;
+    width: 960px;
+    height: 333px;
+    left: 100px;
+    top: 2310px;
+    background: url(image.png);
+    border-radius: 10px;
+}
+
+.NOAIRMAX {
+    position: absolute;
+    width: 960px;
+    height: 360px;
+    left: 500px;
+    top: 2630px;
+    white-space: nowrap;
+    font-family: 'Futura Condensed Extra';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: #000000;
+}
+
+.HISTORYAIRMAX {
+    position: absolute;
+    width: 960px;
+    height: 360px;
+    left: 480px;
+    top: 2860px;
+    font-family: 'Futura Condensed Extra';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.imgfour {
+    /* image 4 */
+    position: absolute;
+    width: 960px;
+    height: 395px;
+    left: 480px;
+    top: 3000px;
+    background: url(image.png);
+    border-radius: 10px;
+}
+
+.textlsat {
+    position: absolute;
+    width: 960px;
+    height: 150px;
+    left: 480px;
+    top: 3420px;
+    font-family: 'Futura Condensed Extra';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.last {
+    /* Фото: nike.com и открытые источники */
+    position: absolute;
+    width: 397.76px;
+    height: 25px;
+    left: 478.5px;
+    top: 3600px;
+    font-family: 'Futura Condensed Extra';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.end {
+    /* end  */
+    position: absolute;
+    width: 1920px;
+    height: 275px;
+    left: 0px;
+    top: 3760px;
+    color: #000000;
+    border: 2px solid #000000;
+    background-color: black;
+}
+
+.endtwo {
+    position: absolute;
+    width: 1920px;
+    height: 2100px;
+    left: 0px;
+    top: 1820px;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.endtree {
+    position: absolute;
+    width: 1920px;
+    height: 180px;
+    left: 0px;
+    top: 3590px;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+
+.CHTO {
+    /* Nike Air Max Day 26.03.2024 */
+    position: absolute;
+    z-index: 1;
+    width: 276px;
+    height: 25px;
+    left: calc(50% - 276px/2 - 69px);
+    top: 3770px;
+    font-family: 'Futura Condensed Extra';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #ffffff;
+}
+
+.LOL {
+    /* Магазин Nike ул. Немига 5, Минск, Минская область */
+    position: absolute;
+    z-index: 1;
+    width: 417px;
+    height: 19px;
+    left: 682px;
+    top: 3805px;
+    font-family: 'Futura Condensed Extra';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #ffffff;
+}
+
+.KEK {
+    /* Бесплатный вход */
+    position: absolute;
+    z-index: 1;
+    width: 138px;
+    height: 19px;
+    left: calc(50% - 138px/2 - 69px);
+    top: 3830px;
+    font-family: 'Futura Condensed Extra';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #ffffff;
+}
+
+.AAA {
+    /* 12:00 — 20:00 */
+    position: absolute;
+    z-index: 1;
+    width: 106px;
+    height: 19px;
+    left: calc(50% - 106px/2 - 69px);
+    top: 3850px;
+    font-family: 'Futura Condensed Extra';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #ffffff;
+}
+
+.AA {
+    /* © 2024 ToFestivali все материалы взяты из открытых источников и nike.com */
+    position: absolute;
+    z-index: 1;
+    width: 516px;
+    height: 16px;
+    left: 310px;
+    top: 4005px;
+    font-family: 'Futura Condensed Extra';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.A {
+    /* Designed by ****** */
+    position: absolute;
+    z-index: 1;
+    width: 127px;
+    height: 19px;
+    left: 1310px;
+    top: 3970px;
+    font-family: 'Futura Condensed Extra';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.OOO {
+    /* Developed by ****** */
+    position: absolute;
+    z-index: 1;
+    width: 136px;
+    height: 19px;
+    left: 1310px;
+    top: 3990px;
+    font-family: 'Futura Condensed Extra';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.imgfive {
+    position: absolute;
+    width: 359.91px;
+    height: 497px;
+    left: 379.9px;
+    top: 1300px;
+    background: url(image.png);
+    border-radius: 10px;
+}
+
+/* border: 1px solid #000000; */
